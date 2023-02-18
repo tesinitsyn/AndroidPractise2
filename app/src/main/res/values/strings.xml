@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">AndroidPractise2</string>
-    <string name="firstlinearelement">firstLinearElement</string>
+    <string name="first_linear_element">firstLinearElement</string>
     <string name="second_linear_element">second Linear Element</string>
+    <string name="place_for_text">Place for text</string>
+    <string name="just_marusya">just marusya</string>
+    <string name="put_text_hear">Put text hear</string>
 </resources>
