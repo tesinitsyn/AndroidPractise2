@@ -9,24 +9,27 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="245dp"
-            android:layout_height="397dp"
-            android:src="@drawable/kitty_marusya"
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="1dp"
-            android:contentDescription="@string/just_marusya"
-            app:srcCompat="@drawable/kitty_marusya" />
+            android:layout_marginStart="139dp"
+            android:layout_marginEnd="164dp"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/put_text_hear"
-                android:textColorHint="#E62323" />
         </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/put_text_hear"
+            android:textColorHint="#E62323" />
+
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
