@@ -23,10 +23,11 @@
         android:layout_width="115dp"
         android:layout_height="52dp"
         android:layout_marginEnd="60dp"
-        android:background="#FFFFFF"
+        android:background="@color/newBlack"
         android:onClick="goToRegistration"
         android:text="@string/sportsman"
         android:textSize="12sp"
+        android:layout_marginTop="@dimen/NewMargin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
